@@ -4,8 +4,8 @@ class Genie < Formula
   version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/grahambrooks/genie/releases/download/0.2.0/genie-aarch64-apple-darwin.tar.xz"
-      sha256 "85249e48f520c9355f33e84206ed4766c43d739ad3940595ab68f3f2d6524434"
+      url "https://github.com/grahambrooks/genie/archive/refs/tags/v0.4.tar.gz"
+      sha256 "1de3dc092750e62fa9a05fab983537dfd375f2c130c3ac9e96232acd80a47f12"
     end
     if Hardware::CPU.intel?
       url "https://github.com/grahambrooks/genie/releases/download/0.2.0/genie-x86_64-apple-darwin.tar.xz"
